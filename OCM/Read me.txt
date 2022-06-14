@@ -1,0 +1,18 @@
+Running Experiments
+Environments:
+	Pytorch1.6
+	Numpy
+	Scipy
+	Apex
+Dataset:CIFAR10
+OCMM
+    python test_cifar10.py --buffer_size 1000
+Dataset:MNIST
+OCMM
+    python test_mnist.py --buffer_size 1000
+Dataset:CIFAR100
+OCMM
+    python test_cifar100.py --buffer_size 1000
+Dataset:TinyImageNet
+OCMM
+    python test_tiny_imagenet.py --buffer_size 2000

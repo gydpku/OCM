@@ -15,7 +15,7 @@ a spotlight paper.
   
                 python test_<dataset name>.py
                 
-  Note that the name of dataset is in lowercase. 
+  Note that the name of dataset is in lowercase. You can check them in the OCM file.
 
   
     

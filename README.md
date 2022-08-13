@@ -2,7 +2,7 @@
 Here is the official implementation of the paper "Online Continual Learning thorough Mutual Information Maximization". This paper is accepted by ICML2022 as
 a spotlight paper.
 # Requirements
-    pytorch==1.6.0
+    pytorch<=1.6.0
     numpy==1.19.5
     scipy==1.4.1
     apex==0.1

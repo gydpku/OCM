@@ -9,11 +9,11 @@ a spotlight paper.
 # Usage
   To reproduce the results in the CIFAR10 setting (2 classes per task)
   
-                python test_cifar10.py
+                python test_cifar10.py --buffer_size 1000
                 
   To reproduce the results in other setting (e.g. CIFAR100):
   
-                python test_<dataset name>.py
+                python test_<dataset name>.py --buffer_size xxx
                 
   Note that the name of dataset is in lowercase. You can check them in the OCM file.
 

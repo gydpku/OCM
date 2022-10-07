@@ -6,6 +6,8 @@ a spotlight paper.
     numpy==1.19.5
     scipy==1.4.1
     apex==0.1
+    tensorboardX
+    diffdist
 # Usage
   To reproduce the results in the CIFAR10 setting (2 classes per task)
   

@@ -19,8 +19,8 @@ a spotlight paper.
                 
   Note that the name of dataset is in lowercase. You can check them in the OCM file.
   
- #Pseudo code for OCM (The simplest form to help you understand the method)
- 
+# Pseudo code for OCM (The simplest form to help you understand the method)
+        #Representation learning part
         x,y=x.cuda(),y.cuda() # get the new data input
         rotate_x,rotate_y=Rotation(x,y) # Using the rotation operation to create more pseudo classes
         hidden,hidden_aug= Basic_model(rotate_x,is_simclr=True), Basic_model(Aug(rotate_x),is_simclr=True) #Aug is the data augmentation

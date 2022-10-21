@@ -19,7 +19,7 @@ a spotlight paper.
                 
   Note that the name of dataset is in lowercase. You can check them in the OCM file.
   
-# Pseudo code for OCM (The simplest form to help you understand the method)
+# Pseudo code for OCM (The simplest form to understand the method)
   Representation learning part
   
         x,y=x.cuda(),y.cuda() # get the new data input
